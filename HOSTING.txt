@@ -1,0 +1,7 @@
+DELMONT PILGRIMAGE - OFFLINE WEB APP
+Upload ALL files in this folder to one folder on an https:// site
+(for example app.delmontpilgrimage.com or delmontpilgrimage.com/app/):
+  index.html, manifest.webmanifest, sw.js, icon-192.png, icon-512.png
+Test: open the address on a phone, wait for it to load once, then use
+"Install app" / "Add to Home screen". Switch to airplane mode and open it.
+Updating: change index.html, then change V='dcp-v1' in sw.js to 'dcp-v2' so phones refresh.
